@@ -8,7 +8,7 @@ select userChoice in "Yes" "No" "Quit"
 do
 	case $userChoice in
 		"Yes")
-			echo Everyone gets $(($creditAmount/$crewAmount))
+			echo Everyone gets $(($creditAmount/$crewAmount)) credits
 		;;
 		"No")
 			for ((x=1;x<=$crewAmount;x++))
